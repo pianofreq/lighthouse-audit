@@ -10,6 +10,6 @@ const server = http.createServer((req, res) => {
 });
 
 // Listen on port 3000, IP defaults to 127.0.0.1 (localhost)
-server.listen(3000, () => {
-  console.log('Server running at http://127.0.0.1:3000/');
+server.listen(8080, () => {
+  console.log('Server running at http://127.0.0.1:8080/');
 });
