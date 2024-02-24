@@ -1,0 +1,13 @@
+{
+  "name": "lighthouse-audit",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for running Lighthouse audits",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "lighthouse": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
